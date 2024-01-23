@@ -25,11 +25,10 @@ for (let numero of numeros) {
     alert(numero);
 }
 
-
 // EJERCICIO 4 - Uso de Map 
+
 // Crear un Map
 let miMapa = new Map();
-
 // Almacenar valores
 miMapa.set('nombre', 'Alexis');
 miMapa.set('edad', 22);
@@ -51,8 +50,6 @@ alert(miMapa.get('edad'));   // Resultado: undefined
 // Limpiar el Map
 miMapa.clear();
 alert(miMapa.size); // Resultado: 0
-
-
 
 // Crear un Map
 let miMapa = new Map();
